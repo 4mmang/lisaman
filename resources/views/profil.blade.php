@@ -121,19 +121,19 @@
                         <img src="{{ asset('img/WhatsApp Image 2024-10-08 at 13.24.15.png') }}" alt=""
                             width="w-full">
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Menari Mandar</h3>
-                    <p class="font-medium text-base text-secondary">Tarian tradisional Mandar, seperti Tari Pattudu, menggambarkan keanggunan dan nilai filosofis masyarakat Mandar melalui
-                    gerakan lembut dan penuh makna.</p>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Saeyang Pattudu</h3>
+                    <p class="font-medium text-base text-secondary">Festival Sayang Pattudu adalah perayaan budaya khas Mandar yang mengangkat seni tari, musik, dan tradisi sebagai wujud
+                    pelestarian warisan leluhur. Nama "Sayang Pattudu" sendiri bermakna cinta dan penghormatan terhadap seni tari (pattudu),
+                    yang menjadi salah satu identitas budaya masyarakat Mandar di Sulawesi Barat.</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="{{ asset('img/WhatsApp Image 2024-10-09 at 11.02.24.png') }}" alt=""
                             width="w-full">
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem, ipsum. </h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Suscipit ut velit nulla voluptates quos ratione quaerat voluptate qui quisquam alias!
-                        Voluptate distinctio laboriosam explicabo libero.</p>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Menari Mandar</h3>
+                    <p class="font-medium text-base text-secondary">Tarian tradisional Mandar, seperti Tari Pattudu, menggambarkan keanggunan dan nilai filosofis masyarakat Mandar melalui
+                    gerakan lembut dan penuh makna.</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
