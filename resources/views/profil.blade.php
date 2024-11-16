@@ -76,8 +76,9 @@
                     <h2 class="font-bold text-primary text-3xl sm:text-4xl lg:text-5xl mb-4">Tahapan Pembuatan Lipa Sabe
                     </h2>
                     <p class="font-medium text-md text-secondary md:text-lg">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, veniam? Rem recusandae commodi
-                        itaque voluptatibus!
+                        Lipa Sa'be Mandar, sebuah mahakarya yang memadukan keahlian tangan dan kekayaan tradisi, melalui proses yang sarat
+                        makna. Dari pemilihan benang berkualitas tinggi hingga penganyaman yang penuh kesabaran, setiap helainya menggambarkan
+                        keindahan budaya dan identitas Mandar yang tak lekang oleh waktu.
                     </p>
                 </div>
             </div>
@@ -105,10 +106,11 @@
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h2 class="font-bold text-primary text-3xl sm:text-4xl lg:text-5xl mb-4">Aktivitas Budaya</h2>
+                    <h2 class="font-bold text-primary text-3xl sm:text-4xl lg:text-5xl mb-4">Adat dan Tradisi Mandar</h2>
                     <p class="font-medium text-md text-secondary md:text-lg">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores beatae ipsam, repellendus odit
-                        ad veniam?
+                        Adat dan tradisi Mandar adalah cerminan dari kearifan lokal yang diwariskan lintas generasi. Mulai dari seni tenun Lipa
+                        Sa'be hingga nilai-nilai luhur dalam kehidupan sehari-hari, budaya Mandar mengajarkan harmoni antara manusia, alam, dan
+                        Sang Pencipta.
                     </p>
                 </div>
             </div>
@@ -119,10 +121,9 @@
                         <img src="{{ asset('img/WhatsApp Image 2024-10-08 at 13.24.15.png') }}" alt=""
                             width="w-full">
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem, ipsum dolor.</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Ducimus soluta quasi dolor quis est dolorem laboriosam! Autem quod assumenda ipsa laboriosam
-                        placeat nostrum similique impedit eveniet deleniti iste, soluta minima.</p>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Menari Mandar</h3>
+                    <p class="font-medium text-base text-secondary">Tarian tradisional Mandar, seperti Tari Pattudu, menggambarkan keanggunan dan nilai filosofis masyarakat Mandar melalui
+                    gerakan lembut dan penuh makna.</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
@@ -139,19 +140,18 @@
                         <img src="{{ asset('img/WhatsApp Image 2024-10-09 at 11.02.23.png') }}" alt=""
                             width="w-full">
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem, ipsum dolor. </h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci, at.
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Acara Pernikahan Mandar</h3>
+                    <p class="font-medium text-base text-secondary">Upacara adat yang kaya simbol, menonjolkan prosesi seperti pengantin mengenakan Lipa Sa’be dan ritual doa sebagai
+                    lambang keberkahan dan kesucian.
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="{{ asset('img/WhatsApp Image 2024-10-09 at 11.02.22.png') }}" alt=""
                             width="w-full">
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Supplier Selection Decision Support System
-                        using the SAW Method</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Repellat soluta laudantium delectus blanditiis error porro doloribus voluptas cumque!
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Musik Rawan</h3>
+                    <p class="font-medium text-base text-secondary">Alunan musik tradisional Mandar yang menggunakan alat musik seperti gendang dan calong, menciptakan suasana syahdu dalam
+                    berbagai acara adat.
                     </p>
                 </div>
             </div>
