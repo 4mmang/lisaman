@@ -7,7 +7,8 @@
                 <h4 class="font-semibold text-lg text-primary mb-2">Produk</h4>
                 <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl mb-4">Sarung</h2>
                 <p class="font-medium text-md text-secondary md:text-lg">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ab modi quibusdam, aut dignissimos quam?
+                Lipa Sa'be, tenun tangan yang diwariskan turun temurun, dengan benang halus dan motif rumit yang
+                menawan.     
                 </p>
                 <input type="text" id="name" name="name" placeholder="Cari produk"
                     class="shadow appearance-none border rounded-full w-full py-4 px-6 mt-8 text-gray-700 leading-tight"

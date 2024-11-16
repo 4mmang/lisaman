@@ -14,9 +14,10 @@
                         {{-- <span class="text-dark">Artificial Intelligence</span> --}}
                     </h2>
                     <p class="font-medium text-white mb-10 leading-relaxed">
-                        Sistem Informasi penjualan lipa saqbe Mandar merupakan adalah sistem yang mendukung proses penjualan
-                        produk-produk Lipa
-                        Saqbe Mandar.
+                        Selamat datang di LISAMAN, sebuah platform e-commerce yang menjadi jembatan antara keindahan tradisi dan kebutuhan
+                        modern. LISAMAN hadir untuk melestarikan dan mempromosikan Lipa Sa’be Mandar, kain tenun khas Mandar yang memancarkan
+                        nilai seni, budaya, dan keanggunan. Dengan LISAMAN, Anda tidak hanya mendapatkan produk berkualitas tinggi, tetapi juga
+                        turut mendukung pengrajin lokal serta menjaga warisan budaya Mandar tetap hidup dan dikenal lua
                     </p>
                     <a href="{{ url('product') }}" id="contact-me"
                         class="text-base font-semibold text-black bg-yellow-400 py-3 px-8 rounded-full transition duration-300 ease-in-out">
@@ -63,10 +64,16 @@
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     {{-- <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Kami</h4> --}}
                     <h4 class="font-bold text-primary text-3xl mb-5 max-w-md lg:text-4xl">LISAMAN</h4>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor, sit amet
-                        consectetur adipisicing elit. Vitae excepturi possimus, eum veniam voluptatem aperiam accusamus
-                        quasi! Vero ipsum, minus incidunt facilis impedit, corrupti odit tempore obcaecati vel veritatis
-                        sequi.</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lipa saqbe Mandar pertama kali di
+                        buat pada abad ke-16.Saat itu, para saudagar dari Arab dan india membawa kain sutra ke Tanah Mandar.
+                        Kain sutra ini menjadi bahan utama pembuatan lipa saqbe, yang kemudian ditenun dengan teknik khas
+                        Mandar menggunakan alat tenun tradisional.
+                        Pada masa lalu, lipa saqbe punya makna lebih dari sekedar kain. Motif-motif yang ada di sarung
+                        ini menjadi simbol status sosial dan ekonomi pemakainnya.Semakin rumit dan indah motifnya,
+                        semakin tinggi status sosial seseorang di masyarakat.Seiring berjalannya waktu, aturan ini pun
+                        berubah.Sekarang, siapa saja bisa memakai lipa saqbe dengan motif mereka suka. Kain ini tak lagi
+                        hanya soal status, tapi juga tentang kecintaan budaya dan tradisi yang sudah ada sejak berabad-abad.
+                    </p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Ayo ikuti kami!</h3>
@@ -106,7 +113,8 @@
                 <h4 class="font-semibold text-lg text-primary mb-2">Product</h4>
                 <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl mb-4">Sarung</h2>
                 <p class="font-medium text-md text-secondary md:text-lg">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ab modi quibusdam, aut dignissimos quam?
+                    Lipa Sa'be, tenun tangan yang diwariskan turun temurun, dengan benang halus dan motif rumit yang
+                    menawan.
                 </p>
             </div>
         </div>
@@ -128,14 +136,12 @@
                                 @csrf
                                 <input type="hidden" name="id_product" id="id_product" value="{{ $product->id }}">
                                 <button type="submit" @guest
-                                    disabled
-                                @endguest
+disabled @endguest
                                     class="block w-full rounded bg-gray-100 px-2 py-3 text-sm font-medium text-gray-900 transition hover:scale-105">
                                     Add to Cart
                                 </button>
                                 <button type="submit" @guest
-                                    disabled
-                                @endguest
+disabled @endguest
                                     class="block w-full rounded bg-primary px-2 py-3 text-sm font-medium text-white transition hover:scale-105">
                                     Buy Now
                                 </button>
