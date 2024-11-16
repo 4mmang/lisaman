@@ -73,11 +73,8 @@
                     <h2 class="font-bold text-primary text-3xl sm:text-4xl lg:text-5xl mb-4">Tahapan Pembuatan Lipa Sabe
                     </h2>
                     <p class="font-medium text-md text-secondary md:text-lg">
-                        Here are some of the most recent projects I've worked on in the field of web development. Each
-                        portfolio highlights my
-                        skills, creativity, and dedication to delivering high-quality websites. Take a look at the
-                        latest work that demonstrates
-                        my expertise in web development.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, veniam? Rem recusandae commodi
+                        itaque voluptatibus!
                     </p>
                 </div>
             </div>
@@ -86,16 +83,16 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <a href="https://youtu.be/2lkY6Rx45Gg?si=MU38XausHvJlDv8-" class="block">
                         <img alt=""
-                            src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="{{ asset('img/033073800_1662959004-Kain_Tenun_Mandar 1.png') }}"
                             class="h-64 w-full object-cover sm:h-80 lg:h-96" />
-
+                        {{-- 
                         <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">Lorem, ipsum dolor.</h3>
 
                         <p class="mt-2 max-w-sm text-gray-700">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis sequi ipsam incidunt.
-                        </p>
+                        </p> --}}
                     </a>
-                </div> 
+                </div>
             </div>
         </div>
     </section>
@@ -141,7 +138,8 @@
                             width="w-full">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem, ipsum dolor. </h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, at.
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
@@ -150,7 +148,8 @@
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Supplier Selection Decision Support System
                         using the SAW Method</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat soluta laudantium delectus blanditiis error porro doloribus voluptas cumque!
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Repellat soluta laudantium delectus blanditiis error porro doloribus voluptas cumque!
                     </p>
                 </div>
             </div>
