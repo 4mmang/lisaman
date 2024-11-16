@@ -15,7 +15,7 @@
         <div class="bg-white shadow-md rounded-lg max-w-sm w-full p-6">
             <h1 class="text-3xl font-bold mb-5 text-center">Selamat Datang di <span class="text-primary"><a
                         href="{{ url('/') }}">LISAMAN</a></span></h1>
-            <p class="text-center mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, eos!</p>
+            <p class="text-center mb-5">Silahkan login, untuk mengakses akun Anda</p>
             @if (session('message'))
                 <p class="w-full border p-3 bg-red-400 rounded-md mb-4">{{ session('message') }}</p>
             @endif

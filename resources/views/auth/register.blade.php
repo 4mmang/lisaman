@@ -15,7 +15,7 @@
         <div class="bg-white shadow-md rounded-lg max-w-sm w-full p-6">
             <h1 class="text-3xl font-bold mb-5 text-center">Bergabung dengan Kami di <span class="text-primary"><a
                         href="{{ url('/') }}">LISAMAN</a></span></h1>
-            <p class="text-center mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, eos!</p>
+            <p class="text-center mb-5">Silahkan melakukan pendaftaran untuk memiliki akun!</p>
             @if ($errors->any())
                 <div class="border p-3 bg-red-300 mb-4 rounded-md">
                     @foreach ($errors->all() as $error)

@@ -18,7 +18,7 @@
                             <ul class="space-y-4">
                                 @foreach ($order->detail as $detail)
                                     <li class="flex items-center gap-4">
-                                        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80"
+                                        <img src="{{ asset('storage/'.$detail->product->image) }}"
                                             alt="" class="size-16 rounded object-cover" />
 
                                         <div>
