@@ -11,11 +11,14 @@
                             class="w-full h-auto rounded-lg" />
                     </div>
                     <p class="font-medium text-md text-secondary md:text-lg">
-                        Here are some of the most recent projects I've worked on in the field of web development. Each
-                        portfolio highlights my
-                        skills, creativity, and dedication to delivering high-quality websites. Take a look at the
-                        latest work that demonstrates
-                        my expertise in web development.
+                        Lipa Sa’be, yang berarti "sarung sutra" dalam bahasa Mandar, adalah salah satu warisan budaya khas
+                        suku Mandar di
+                        Sulawesi Barat. Kain ini telah dikenal sejak ratusan tahun yang lalu sebagai simbol kebanggaan,
+                        keanggunan, dan status
+                        sosial masyarakat Mandar.Hingga kini, Lipa Sa’be tetap menjadi kebanggaan lokal yang terus dijaga
+                        dan dilestarikan, baik
+                        oleh pengrajin maupun masyarakat Mandar, sebagai bukti kecintaan mereka terhadap tradisi dan seni
+                        warisan leluhur.
                     </p>
                 </div>
             </div>
@@ -82,8 +85,7 @@
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/3">
                     <a href="https://youtu.be/2lkY6Rx45Gg?si=MU38XausHvJlDv8-" class="block">
-                        <img alt=""
-                            src="{{ asset('img/033073800_1662959004-Kain_Tenun_Mandar 1.png') }}"
+                        <img alt="" src="{{ asset('img/033073800_1662959004-Kain_Tenun_Mandar 1.png') }}"
                             class="h-64 w-full object-cover sm:h-80 lg:h-96" />
                         {{-- 
                         <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">Lorem, ipsum dolor.</h3>
