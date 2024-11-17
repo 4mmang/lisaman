@@ -16,6 +16,7 @@ use App\Http\Controllers\User\ProductController as UserProductController;
 use App\Http\Controllers\User\ReviewController;
 use App\Models\Category;
 use App\Models\Order;
+use App\Models\OrderDetail;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
@@ -37,12 +38,31 @@ Route::get('profil', function(){
 
 Route::resource('contact', ContactController::class);
 Route::resource('my-order', OrderController::class)->middleware('auth');
+
+Route::get('/grafik', function(){
+    $products = Product::all();
+    $data = [];
+    foreach ($products as $product) {
+        $total = 0;
+        $terjual = OrderDetail::where('id_product', $product->id)->get();
+        foreach ($terjual as $t) {
+            $total += $t->quantity;
+        }
+        array_push($data, $total);
+    }
+    return response()->json([
+        'products' => $products,
+        'data' => $data
+    ]);
+});
+
 Route::get('admin/dashboard', function(){
     $countProduct = Product::all()->count();
     $countCategory = Category::all()->count();
     $countOrder = Order::all()->count();
     return view('admin.dashboard', compact('countProduct', 'countCategory', 'countOrder'));
 })->middleware('auth');
+
 Route::get('/', [HomeController::class, 'index']);
 Route::resource('product',  UserProductController::class, ['as' => 'user'])->middleware('auth');
 Route::resource('my-cart', CartController::class)->middleware('auth');

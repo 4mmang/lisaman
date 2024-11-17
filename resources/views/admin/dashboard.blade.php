@@ -20,10 +20,10 @@
                 </ul>
             </div>
         </nav>
-    
+
         <div class="flex-1 p-6 bg-gray-100 overflow-y-auto">
             <h1 class="text-3xl font-base text-slate-700">Dashboard</h1>
-    
+
             <div class="container">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
@@ -42,7 +42,82 @@
                         </p>
                     </div>
                 </div>
+                <div class="mb-12 p-4 w-full mt-7">
+                    <canvas id="myLineChart" style="height: 250px; width: 100%"></canvas>
+                </div>
             </div>
         </div>
     </div>
+@endsection
+@section('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        let labels = [];
+        let total = []
+        fetch('/grafik')
+            .then((response) => {
+                // Cek apakah response berhasil
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json(); // Konversi response ke JSON
+            })
+            .then((data) => {
+                total = data.data
+                console.log(total);
+                // Isi labels dengan data dari API
+                data.products.forEach(element => {
+                    labels.push(element.name_product);
+                });
+
+                // Setelah data labels selesai diisi, buat chart
+                initializeChart(labels, total);
+            })
+            .catch((err) => {
+                console.error('Error:', err); // Tangani error
+            });
+
+        function initializeChart(labels, total) {
+            var bar = document.getElementById('myLineChart').getContext('2d');
+
+            var myBarChart = new Chart(bar, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Total Product Terjual",
+                        data: total,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(255, 205, 86, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(201, 203, 207, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgb(255, 99, 132)',
+                            'rgb(75, 192, 192)',
+                            'rgb(255, 159, 64)',
+                            'rgb(255, 205, 86)',
+                            'rgb(54, 162, 235)',
+                            'rgb(153, 102, 255)',
+                            'rgb(201, 203, 207)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+    </script>
 @endsection
