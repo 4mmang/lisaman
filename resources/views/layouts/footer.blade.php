@@ -13,6 +13,9 @@
                     <li>
                         <a href="" class="inline-block text-base first:hover:text-primary mb-3">Web Development</a>
                     </li> 
+                    <li>
+                        <a href="" class="inline-block text-base first:hover:text-primary mb-3">Web Development</a>
+                    </li> 
                 </ul>
             </div>
             <div class="w-full px-4 mb-12 md:w-1/3">

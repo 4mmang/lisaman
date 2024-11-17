@@ -28,17 +28,17 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
                         <h2 class="text-xl font-semibold text-slate-700">Jumlah Category</h2>
-                        <p class="text-4xl font-bold text-slate-700 mt-4">20 
+                        <p class="text-4xl font-bold text-slate-700 mt-4">{{ $countCategory }}
                         </p>
                     </div>
                     <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
                         <h2 class="text-xl font-semibold text-slate-700">Jumlah Product</h2>
-                        <p class="text-4xl font-bold text-slate-700 mt-4">20 
+                        <p class="text-4xl font-bold text-slate-700 mt-4">{{ $countProduct }}
                         </p>
                     </div>
                     <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
                         <h2 class="text-xl font-semibold text-slate-700">Jumlah Order</h2>
-                        <p class="text-4xl font-bold text-slate-700 mt-4">20 
+                        <p class="text-4xl font-bold text-slate-700 mt-4">{{ $countOrder }}
                         </p>
                     </div>
                 </div>

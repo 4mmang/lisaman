@@ -14,6 +14,9 @@ use App\Http\Controllers\User\ContactController;
 use App\Http\Controllers\User\OrderController;
 use App\Http\Controllers\User\ProductController as UserProductController;
 use App\Http\Controllers\User\ReviewController;
+use App\Models\Category;
+use App\Models\Order;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 
@@ -35,7 +38,10 @@ Route::get('profil', function(){
 Route::resource('contact', ContactController::class);
 Route::resource('my-order', OrderController::class)->middleware('auth');
 Route::get('admin/dashboard', function(){
-    return view('admin.dashboard');
+    $countProduct = Product::all()->count();
+    $countCategory = Category::all()->count();
+    $countOrder = Order::all()->count();
+    return view('admin.dashboard', compact('countProduct', 'countCategory', 'countOrder'));
 })->middleware('auth');
 Route::get('/', [HomeController::class, 'index']);
 Route::resource('product',  UserProductController::class, ['as' => 'user'])->middleware('auth');
