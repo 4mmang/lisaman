@@ -11,11 +11,13 @@
                 <h3 class="font-semibold text-xl text-white mb-5">Layanan Kami</h3>
                 <ul class="text-slate-300">
                     <li>
-                        <a href="" class="inline-block text-base first:hover:text-primary mb-3">Web Development</a>
-                    </li> 
+                        <a href="" class="inline-block text-base first:hover:text-primary mb-3">Web
+                            Development</a>
+                    </li>
                     <li>
-                        <a href="" class="inline-block text-base first:hover:text-primary mb-3">Web Development</a>
-                    </li> 
+                        <a href="https://www.google.com/maps/place/Karama,+Kec.+Tinambung,+Kabupaten+Polewali+Mandar,+Sulawesi+Barat/@-3.510777,119.0432015,16z/data=!3m1!4b1!4m6!3m5!1s0x2d94be27270e6b41:0xa43fe352b9730d6f!8m2!3d-3.511219!4d119.0416286!16s%2Fg%2F1hc0gzc2x?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D"
+                            class="inline-block text-base first:hover:text-primary mb-3">Karama</a>
+                    </li>
                 </ul>
             </div>
             <div class="w-full px-4 mb-12 md:w-1/3">
