@@ -25,6 +25,12 @@
             <h1 class="text-3xl font-base text-slate-700">Dashboard</h1>
 
             <div class="container">
+                <form action="{{ route('data-penjualan.pdf') }}" method="post" class="mt-3">
+                    @csrf
+                    <input type="date" name="start" class="px-3">
+                    <input type="date" name="end" class="px-3">
+                    <button type="submit" class="p-2 bg-primary text-white rounded-lg">Cetak Data Penjualan</button>
+                </form>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
                         <h2 class="text-xl font-semibold text-slate-700">Jumlah Category</h2>
