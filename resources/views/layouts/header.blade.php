@@ -37,6 +37,10 @@
                             <a href="{{ route('contact.index') }}"
                                 class="text-base py-2 mx-8 flex group-hover:text-primary {{ Request::is('contact') ? 'text-primary' : '' }}">Contact</a>
                         </li>
+                        <li class="group">
+                            <a href="{{ route('help.index') }}"
+                                class="text-base py-2 mx-8 flex group-hover:text-primary {{ Request::is('contact') ? 'text-primary' : '' }}">Help</a>
+                        </li>
                         @guest
                             <li class="group">
                                 <a href="{{ url('login') }}"
