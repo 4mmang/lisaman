@@ -87,8 +87,15 @@ Route::prefix('admin')
 
 Route::resource('review', ReviewController::class)->middleware('auth');
 
-Route::get('/help', function(){
+Route::get('/help', function () {
     return view('help');
 })->name('help.index');
 
 Route::post('/data-penjualan/pdf', [CetakDataPenjulanController::class, 'generatePDF'])->name('data-penjualan.pdf');
+
+Route::get('/search/{product}', function ($product) {
+    $products = Product::where('name_product', 'like', '%' . $product . '%')->get();
+    return response()->json([
+        'products' => $products,
+    ]);
+});
